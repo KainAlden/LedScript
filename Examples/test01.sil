@@ -1,0 +1,25 @@
+//initalise an array of 21 leds
+leds 21;"array1"
+
+//create 3 variables storing numbers between 1-255
+i=254;
+k=1;
+j=1;
+
+//write to the odd numbers of the led array
+for(int q=1;q<22;q = q + 2;)
+{
+update (i;k;j;q;"array1");
+}
+
+//inverse teh rgb values
+flip(i;j;k);
+
+//write to teh odd elements of teh led array
+for(int w=2;w<22;w = w + 2;)
+{
+update (i;k;j;w;"array1");
+}
+
+//show the rgb values
+WRITE "array1" ;

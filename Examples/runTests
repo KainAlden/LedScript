@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "=== Test01.sil ==="
+java Sili < test01.sil
+echo "=== Test02.sil ==="
+java Sili < test02.sil
+echo "=== Test03.sil ==="
+java Sili < test03.sil
+echo "=== Test04.sil ==="
+java Sili < test04.sil
+echo "=== Test05.sil ==="
+java Sili < test05.sil
+time java Sili < test05.sil

@@ -1,0 +1,5 @@
+The language can be built in the eclipise IDE. The javacc plugin is needed. 
+Open the ledscript source folder in eclipse.
+Right click sili.jjt and complie with jave cc.
+sili.jjt is found in the parser directory
+This will genderate the neccasery files and the language will be ready for use.
